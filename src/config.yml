@@ -1,0 +1,6 @@
+# Villagers Drop Emeralds - 1.0.0
+# By CJ Burkey
+emeraldChancePercent: 25
+emeraldMin: 1
+emeraldMax: 2
+xpDropped: 1

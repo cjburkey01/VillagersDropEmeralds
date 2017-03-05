@@ -1,0 +1,7 @@
+name: VillagersDropEmeralds
+main: com.cjburkey.plugin.emeralddrops.VillagersDropEmeralds
+author: CJ Burkey
+database: false
+prefix: VillagerEmeralds
+version: 1.0.0
+website: http://bit.ly/2lLNzqD
