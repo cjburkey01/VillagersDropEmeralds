@@ -13,7 +13,7 @@ public class HandleEntityDeath implements Listener {
 	public void onEntityDie(EntityDeathEvent e) {
 		if(e.getEntityType().equals(EntityType.VILLAGER)) {
 			if(Util.randonRangeInc(1, 100) <= VillagersDropEmeralds.emeraldChance) {
-				int amt = Util.randonRangeInc(VillagersDropEmeralds.minEmeralds, VillagersDropEmeralds.maxEmerals);
+				int amt = Util.randonRangeInc(VillagersDropEmeralds.minEmeralds, VillagersDropEmeralds.maxEmeralds);
 				e.getDrops().add(new ItemStack(Material.EMERALD, amt));
 			}
 			e.setDroppedExp(VillagersDropEmeralds.exp);
